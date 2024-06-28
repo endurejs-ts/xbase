@@ -35,6 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Upload coverage reports to Codecov
+        run: |
+          echo Add other actions to build codecov
       - uses: codecov/codecov-action@v4.0.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
