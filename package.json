@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
     "immer": "^10.1.1"
   }
 }

@@ -12,6 +12,10 @@
         "esModuleInterop": true,
         "moduleResolution": "NodeNext",
         "resolveJsonModule": true,
-        "rootDir": "."
+        "rootDir": ".",
     },
+    "include": [
+        "src/**/*",
+        "**/*"
+    ]
 }
